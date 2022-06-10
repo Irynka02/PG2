@@ -4,16 +4,27 @@
   margin: 0% auto;
   margin-top: 5%;
 }
+.card-body {
+  background-color: rgb(245, 233, 218);
+  border-style: solid;
+  border-radius: 20px;
+  border-color: rgb(240, 176, 104);
+}
 
 .float-left {
   margin: 0px 70px 15px;
   color: rgb(33, 33, 33);
-  font-size: 35px;
+  font-size: 50px;
   font-weight: 400;
   line-height: 1;
 }
+.float-left-c {
+  font-size: 20px;
+}
 .Search {
   margin: -110px 0px 5px 250px;
+  border-color: rgb(240, 176, 104);
+  font-size: 18px;
 }
 .wind {
   margin: 0 -40px 30px;
@@ -25,6 +36,10 @@
   margin-top: 20px;
   text-align: center;
   color: #000;
+}
+
+.weather-forecast-img {
+  margin-left: 0px;
 }
 
 .weather-forecast-date {
@@ -43,7 +58,22 @@
 h1 {
   margin: 0px 80px 1px 1px;
   text-align: center;
+  color: rgb(41, 39, 37);
+  background-image: linear-gradient(
+    to right,
+    rgb(245, 233, 218),
+    #f1b993,
+    rgb(240, 176, 104),
+    rgb(240, 176, 104),
+    #f1b993,
+    rgb(245, 233, 218)
+  );
 }
+
+img {
+  margin-left: 50px;
+}
+
 h2 {
   font-family: "Times New Roman", Times, serif;
   margin: 0px 28px 0px;
